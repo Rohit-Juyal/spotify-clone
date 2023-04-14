@@ -1,0 +1,37 @@
+.sidebar {
+    flex: 0.2;
+    height: 100vh;
+    min-width: 250px;
+    background-color: #000;
+    padding: 0 10px;
+    top: 0;
+    left: 0;
+    position: fixed; 
+    overflow-y: scroll;
+    padding-bottom: 15vh;
+}
+
+.sidebar::-webkit-scrollbar {
+    display: none;
+}
+
+.sidebar__img {
+    object-fit: contain;
+    width: 150px;
+    padding-top: 10px;
+}
+
+.playlist {
+    padding-top: 20px;
+}
+
+.playlist > hr {
+    width: 90%;
+    margin: auto;
+}
+
+.playlist h4 {
+    color: gray;
+    padding: 20px 10px 10px ;
+}
+

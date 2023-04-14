@@ -1,0 +1,16 @@
+.sidebarOption {
+    display: flex;
+    align-items: center;
+    color: gray;
+    padding: 10px;
+    gap: 10px;
+    cursor: pointer; 
+}
+
+.sidebarOption:hover {
+    color: #fff;
+}
+
+.sidebarOption__icon {
+    font-size: 27px !important;
+}

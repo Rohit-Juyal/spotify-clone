@@ -1,0 +1,60 @@
+.body {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.76);
+    padding: 30px;
+    margin-left: 250px;
+    height: fit-content;
+    padding-bottom: 15vh;
+}
+
+.body__info {
+    color: white;
+    display: flex;
+    align-items: flex-end;
+}
+
+.body__info > img {
+    height: 20vw;
+    min-height: 200px;
+    margin: 0 20px;
+    box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+}
+
+.body__infoText {
+    flex: 1;
+}
+
+.body__infoText > h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.body__infoText > p {
+    font-size: 14px;
+}
+
+.body__icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.body__icons > button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.body__icons > button > svg {
+    font-size: 30px !important;
+}
+
+.body__shuffle {
+    font-size: 80px !important;
+    margin: 20px 0; 
+}
+
+.body__shuffle:hover {
+    transform: scale(1.08);
+    transition: transform 0.1s ease-in-out;
+}
